@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* https://www.wix.com/website/templates/html/restaurants-food/2 */
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+
+body{
+    background: rgb(236, 236, 236);
+}

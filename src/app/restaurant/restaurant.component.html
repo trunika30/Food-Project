@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="two_cards">
+  <div *ngFor="let restro of restaurant">
+    <mat-card (click)="gotorestro(restro)" class="example-card">
+        <div class="example-header-image"><img src={{restro.image}}></div>
+        <div class="mid">
+          <div class="title">{{restro.name}}</div>
+          <div class="des">{{restro.descrip}}</div>
+        </div>  
+        <div class="blank"></div>
+        <div class="rate">{{restro.rate}}</div>
+      </mat-card>
+    </div>
+  </div>
+</div>

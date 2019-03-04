@@ -1,0 +1,25 @@
+
+    <table class="table table-hover">
+        <tr>
+            
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Rating</th>
+            <th>Time</th>
+            <th>Cost</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr *ngFor="let i of restaurant" >
+            <td>{{i.id}}</td>
+            <td>{{i.name}}</td>
+            <td>{{i.descrip}}</td>
+            <td>{{i.rate}}</td>
+            <td>{{i.time}}</td>
+            <td>{{i.cost}}</td>
+            <td class="icon"><img src="assets/update.png"></td>
+            <td class="icon" (click)="delete(i.id)"><img src="assets/delete.png"></td>
+        </tr>
+    </table>
+  

@@ -1,0 +1,31 @@
+.main_head{
+    display: flex;
+    margin-top: 20px;
+    background: rgb(150, 81, 16);
+    padding: 10px;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.down{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.down .dash{
+    margin-left: 20px;
+    border-left: 1px solid grey;
+    padding-left:20px;
+}
+.down span{
+    font-size: 10px;
+    color:rgb(211, 210, 210);
+}
+.img>img{
+    width:280px;
+}
+.mid{
+    margin-left: 15px;
+    color: #fff;
+}

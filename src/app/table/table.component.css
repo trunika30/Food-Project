@@ -1,0 +1,12 @@
+table tr th{
+    background: rgb(253, 185, 107);
+    color:black;
+}
+table tr:hover{
+    background:  rgba(252, 249, 249, 0.3);
+    
+}
+.icon img{
+    width: 18px;
+    cursor: pointer;
+}

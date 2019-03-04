@@ -1,0 +1,44 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(D:/Angular/foodpro/src/assets/side_image.jpg);
+    background-size: cover;
+    padding-left:160px;
+    height:86vh;
+}
+.box{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align:center;
+    position: relative;
+    border: 1px solid black;
+    font-size: 15px;
+    width:400px;
+    padding:90px 50px;
+}
+.box p{
+    font-family: cursive !important;
+    font-size: 25px;
+    margin-bottom: 50px;
+   
+}
+.box input
+{
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.box button{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+    background: transparent;
+}
